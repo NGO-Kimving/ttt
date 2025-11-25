@@ -2,11 +2,11 @@
   "name": "tictactoe-react",
   "version": "1.0.0",
   "description": "Simple Tic-Tac-Toe teaching example with React 18",
-  "homepage": "https://AUPP-CS.github.io/tic-tac-toe-deployment-NGO-Kimving",
+  "homepage": "https://github.com/NGO-Kimving/ttt",
 
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url /ttt",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
